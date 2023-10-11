@@ -1,5 +1,5 @@
 # Lists Function
-myList = [ "One", "Two", "Three", "Four" ]
+mylist = [ "One", "Two", "Three", "Four" ]
 print(mylist)
 
 # List Length
@@ -29,7 +29,17 @@ print(mylist)
 print(len(mylist))
 
 # Remove by Index
-mylist.remove(7)
+mylist.remove("Seven")
 print(mylist)
 print(len(mylist))
 
+# Accessing Elements in a List
+value = mylist[0]
+print(value)
+
+mylist[0] = "Zero (Edited)"
+value = mylist[0]
+
+print(value)
+
+#Function
