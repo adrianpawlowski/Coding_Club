@@ -51,3 +51,11 @@ def fahr_to_celsius(temp):
 fahr_to_celsius(75)
 
 
+def calculate_average():
+    total = 0
+    for num in numbers:
+         total+=num
+         return total/len(numbers)
+
+
+calculate_average(6,7,8,9,10,14,13)
